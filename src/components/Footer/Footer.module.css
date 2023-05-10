@@ -1,0 +1,42 @@
+.container {
+    position: static;
+}
+
+.container_inner {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.footer_inner {
+    position: relative;
+    width: 1150px;
+    margin-right: auto;
+    background-image: url("../../assets/footer-background.jpg");
+    background-position: 0 0;
+    display: flex;
+    margin-left: 290px;
+}
+
+.footer_inner p {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    color: #b39f89;
+}
+
+.footer_inner h4 {
+    font-family: Playfair Display, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    color: #ffffff;
+}
