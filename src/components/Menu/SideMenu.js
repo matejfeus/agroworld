@@ -7,7 +7,7 @@ import background from "../../assets/menu-background.jpg";
 const SideMenu = (props) => {
     return (
         <>
-            <div style={{
+            <div className={classes.sidenav} style={{
                 backgroundImage: `url(${background})`
             }}>
                 <ImageUri href_="#" imageName="Logo-Ajos-LaVeguilla.png" />
