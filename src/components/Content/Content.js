@@ -3,7 +3,8 @@ import PostList from "./PostList";
 
 const Content = (props) => {
     return (
-        <div>
+        <div className={classes.content}>
+            <p>sjeb</p>
             <PostList />
         </div>
     );

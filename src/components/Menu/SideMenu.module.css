@@ -29,20 +29,15 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover, i:hover, p {
+.sidenav a:hover, i:hover {
     color: #c9b7aa;
 }
 
 .sidenav p {
+    color: #c9b7aa;
     font-size: 10px;
     font-family: Roboto, sans-serif;
     text-align: center;
-}
-
-/* Style page content */
-.main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */

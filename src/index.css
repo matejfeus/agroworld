@@ -28,3 +28,11 @@ button:active {
     background-color: #630032;
     border-color: #630032;
 }
+
+li {
+    list-style-type: none;
+}
+
+* {
+    outline: 1px solid red;
+}
