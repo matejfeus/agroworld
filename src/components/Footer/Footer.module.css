@@ -19,7 +19,7 @@
     margin-left: 290px;
 }
 
-.footer_inner p {
+.footer_inner p, a {
     font-family: Roboto, sans-serif;
     font-size: 12px;
     line-height: 20px;

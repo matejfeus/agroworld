@@ -33,6 +33,15 @@ li {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 0px;
+}
+
 * {
     outline: 1px solid red;
 }

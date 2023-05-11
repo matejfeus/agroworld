@@ -1,0 +1,10 @@
+.text_style p a {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    color: #b39f89;
+}

@@ -1,0 +1,14 @@
+i, i:hover {
+    color: #efefef;
+    font-size: 18px;
+}
+
+.footer_contact_item {
+    margin-bottom: 8px;
+}
+
+.display_inline {
+    display: inline;
+    horiz-align: center;
+    margin-left: 5px;
+}

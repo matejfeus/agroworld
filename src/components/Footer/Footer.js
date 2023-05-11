@@ -3,6 +3,7 @@ import background from "../../assets/footer-background.jpg";
 import certificate1 from "../../assets/veguilla-fondos-europeos-energias-renovables-1-181x300.jpg";
 import certificate2 from "../../assets/veguilla-fondos-europeos-181x300.jpg";
 import FooterMenu from "./FooterMenu";
+import FooterContactList from "./FooterContactList";
 
 const Footer = (props) => {
     return (
@@ -14,17 +15,7 @@ const Footer = (props) => {
                     <div className={classes.footer_inner}>
                         <div>
                             <h4>Contact</h4>
-
-                            <div>
-                                <p>
-                                Pascualillo, s/n
-                                16660 Las Pedroñeras, Cuenca, Spain
-                                </p>
-
-                                <p>+34 967 160 351</p>
-                                <i className="fa fa-envelope-o"></i>
-                                <p>ajoslaveguilla@veguilla.com</p>
-                            </div>
+                            <FooterContactList />
                         </div>
                         <div>
                             <FooterMenu />
