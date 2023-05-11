@@ -14,11 +14,10 @@ const Footer = (props) => {
                 }}>
                     <div className={classes.footer_inner}>
                         <div>
-                            <h4>Contact</h4>
-                            <FooterContactList />
+                            <FooterContactList/>
                         </div>
                         <div>
-                            <FooterMenu />
+                            <FooterMenu/>
                         </div>
                         <div>
                             <img src={certificate1} alt=""/>
@@ -30,7 +29,7 @@ const Footer = (props) => {
                 </div>
             </div>
         </footer>
-);
+    );
 }
 
 export default Footer;

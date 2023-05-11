@@ -11,6 +11,7 @@ const FooterContactList = (props) => {
 
     return (
         <>
+            <h4>Contact</h4>
             {content.map(item => <FooterContactItem classes={item.classes} text={item.text} />)}
         </>
     );
