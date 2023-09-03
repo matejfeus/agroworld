@@ -1,9 +1,30 @@
 import classes from "./Post.module.css";
+import background from "../../assets/menu-background.jpg";
 
 const Post = (props) => {
+    const imgPath = "/images/" + props.sideImage;
     return (
-        <div>
-            <p>pizda</p>
+        <div className={classes.container}>
+            {props.side === "left" &&
+                (
+                    <div  className={classes.containerChild} >
+                        <img src={imgPath}/>
+                    </div>
+                )
+            }
+            <div  className={classes.containerChild}>
+                <h2>{props.title}</h2>
+                <br/>
+                <h6><strong>{props.subtitle}</strong></h6>
+                <p>{props.text}</p>
+            </div>
+            {props.side === "right" &&
+                (
+                    <div  className={classes.containerChild}>
+                        <img src={imgPath}/>
+                    </div>
+                )
+            }
         </div>
     );
 }
