@@ -7,9 +7,9 @@ const MenuOptionList = (props) => {
         "La Veguilla",
         "Garlic with Guarantees",
         "Garlic from La Veguilla",
-        "The Garlic Grower",
+        "Garlic’s Best Friend",
         "Las Pedroñeras",
-        "Garlic and You"
+        "Garlic And You"
     ];
 
     return (
