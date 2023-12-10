@@ -3,6 +3,7 @@ import background from "../../assets/menu-background.jpg";
 
 const Post = (props) => {
     const imgPath = "/images/" + props.sideImage;
+
     return (
         <div className={classes.container}>
             {props.side === "left" &&
@@ -16,7 +17,7 @@ const Post = (props) => {
                 <h2>{props.title}</h2>
                 <br/>
                 <h6><strong>{props.subtitle}</strong></h6>
-                <p>{props.text}</p>
+                <div dangerouslySetInnerHTML={{ __html: props.text }} />
             </div>
             {props.side === "right" &&
                 (

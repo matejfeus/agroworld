@@ -13,16 +13,16 @@ const Footer = (props) => {
                     backgroundImage: `url(${background})`
                 }}>
                     <div className={classes.footer_inner}>
-                        <div>
+                        <div className={classes.footer_component}>
                             <FooterContactList/>
                         </div>
-                        <div>
+                        <div className={classes.footer_component}>
                             <FooterMenu/>
                         </div>
-                        <div>
+                        <div className={classes.footer_component}>
                             <img src={certificate1} alt=""/>
                         </div>
-                        <div>
+                        <div className={classes.footer_component}>
                             <img src={certificate2} alt=""/>
                         </div>
                     </div>

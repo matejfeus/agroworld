@@ -14,3 +14,6 @@
     flex: 0 0 100%;
     min-width: 0;
 }
+
+.MultiCarousel .MultiCarousel-inner .item > div{overflow:hidden}
+img { max-width:100%; }

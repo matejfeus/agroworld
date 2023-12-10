@@ -36,3 +36,7 @@
     text-transform: none;
     color: #ffffff;
 }
+
+.footer_component {
+    padding: 30px;
+}

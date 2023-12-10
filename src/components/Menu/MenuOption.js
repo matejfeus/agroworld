@@ -2,7 +2,7 @@ import classes from "./MenuOption.module.css";
 
 const MenuOption = (props) => {
     return (
-        <li>
+        <li className={classes.item}>
             <a href="#">
                 <span>
                     {props.title}
