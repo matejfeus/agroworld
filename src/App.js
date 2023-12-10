@@ -7,7 +7,7 @@ function App() {
     return (
         <>
             <Header />
-            <SideMenu />
+            { window.screen.width >= 768 ? <SideMenu /> : <></> }
             <Content />
             <Footer />
         </>
