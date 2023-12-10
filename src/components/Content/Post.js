@@ -5,7 +5,7 @@ const Post = (props) => {
     const imgPath = "/images/" + props.sideImage;
 
     return (
-        <div className={classes.container}>
+        <div className={classes.container} id={props.title}>
             {props.side === "left" &&
                 (
                     <div  className={classes.containerChild} >
