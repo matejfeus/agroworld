@@ -1,3 +1,9 @@
 .content {
-    margin-left: 290px; /* Same as the width of the sidebar */
+    margin-left: 0px; /* Same as the width of the sidebar */
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        margin-left: 290px; /* Adjusted margin for desktop devices */
+    }
 }
