@@ -12,7 +12,13 @@
     margin-right: auto;
     background-position: 0 0;
     display: flex;
-    margin-left: 290px;
+    margin-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        margin-left: 290px; /* Adjusted margin for desktop devices */
+    }
 }
 
 .footer_inner p, a {
