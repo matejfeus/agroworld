@@ -1,5 +1,6 @@
 import classes from "./FooterContactList.module.css";
 import FooterContactItem from "./FooterContactItem";
+import { useTranslation } from 'react-i18next';
 
 const content = [
     {classes: "fa fa-map-marker", text: "Pascualillo, s/n 16660 Las Pedroñeras, Cuenca, Spain"},
@@ -9,9 +10,11 @@ const content = [
 
 const FooterContactList = (props) => {
 
+    const { t } = useTranslation();
+
     return (
         <>
-            <h4>Contact</h4>
+            <h4>{t('contact')}</h4>
             {content.map(item => <FooterContactItem classes={item.classes} text={item.text} />)}
         </>
     );

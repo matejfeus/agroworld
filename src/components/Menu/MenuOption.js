@@ -1,4 +1,5 @@
 import classes from "./MenuOption.module.css";
+import { useTranslation } from 'react-i18next';
 
 const MenuOption = (props) => {
     const handleClickScroll = (id) => {
@@ -8,11 +9,13 @@ const MenuOption = (props) => {
         }
     };
 
+    const { t } = useTranslation();
+
     return (
         <li className={classes.item} onClick={() => handleClickScroll(props.title)}>
             <a>
                 <span>
-                    {props.title}
+                    {t(props.title)}
                 </span>
             </a>
         </li>

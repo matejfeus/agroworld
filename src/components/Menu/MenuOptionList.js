@@ -1,16 +1,12 @@
 import classes from "./MenuOptionList.module.css";
 import MenuOption from "./MenuOption";
 import {useRef} from 'react';
+import { content } from '../data.js';
 
 const MenuOptionList = (props) => {
-    const options = [
-        "La Veguilla",
-        "Garlic with Guarantees",
-        "Garlic from La Veguilla",
-        "Garlic’s Best Friend",
-        "Las Pedroñeras",
-        "Garlic And You"
-    ];
+    const options = content.map((item) => {return item.title});
+
+    console.log(options);
 
     return (
         <ul>
