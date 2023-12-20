@@ -42,3 +42,12 @@
 .icon {
     color: #b39f89;
 }
+
+.multiLanguage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: #907c6c;
+    top: 0px;
+}
