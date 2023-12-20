@@ -1,0 +1,48 @@
+.logo {
+    display: table-cell;
+    position: relative;
+    top: auto;
+    vertical-align: middle;
+}
+
+.logoWrapper {
+    display: table;
+    height: 100px;
+    left: 50%;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.containerWrapper {
+    display: grid;
+    width: 100%;
+}
+
+.optionList {
+    width: 100%;
+}
+
+.burger {
+    margin: 0 20px 0 0;
+    float: left;
+    display: table;
+}
+
+.logo img {
+    height: 55px;
+}
+
+.header {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.icon {
+    color: #b39f89;
+}

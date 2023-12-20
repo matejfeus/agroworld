@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import SideMenu from "./components/Menu/SideMenu";
 import Footer from "./components/Footer/Footer";
 import Content from "./components/Content/Content";
@@ -8,8 +8,7 @@ import React, { Suspense } from 'react';
 function App() {
     return (
         <Suspense fallback={null}>
-            <Header />
-            { window.screen.width >= 768 ? <SideMenu /> : <></> }
+            { window.screen.width >= 1000 ? <SideMenu /> : <Header /> }
             <Content />
             <Footer />
         </Suspense>

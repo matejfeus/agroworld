@@ -7,6 +7,16 @@
     height: 400px;
  }
 
+@media screen and (max-width: 400px) {
+    .embla img {
+        height: 30vh; /* Adjusted margin for desktop devices */
+    }
+
+    .embla {
+        height: 30vh;
+    }
+}
+
 .embla__container {
     display: flex;
 }

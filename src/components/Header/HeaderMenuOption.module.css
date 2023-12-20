@@ -1,0 +1,16 @@
+.item {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2b2622;
+}
+
+.item hr {
+    border-top: 1px solid #c9b7aa;
+}
+
+.item:last-child{border:none !important;}
