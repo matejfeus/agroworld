@@ -28,6 +28,9 @@ const Header = () => {
                             </a>
                         </div>
                     </div>
+                    <div className={classes.burger}>
+
+                    </div>
                 </div>
                 <div className={classes.optionList} style={{opacity: !show ? "0" : "1",
                     transition: "all .2s",
