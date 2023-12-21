@@ -15,8 +15,8 @@
     margin-left: 0px;
 }
 
-@media screen and (min-width: 768px) {
-    .content {
+@media screen and (min-width: 1000px) {
+    .footer_inner {
         margin-left: 290px; /* Adjusted margin for desktop devices */
     }
 }
