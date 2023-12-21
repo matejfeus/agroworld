@@ -10,7 +10,8 @@ i18n.use(Backend)
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-        fallbackLng,
+        fallbackLng: fallbackLng,
+        lng: fallbackLng,
         detection: {
             checkWhitelist: true
         },
