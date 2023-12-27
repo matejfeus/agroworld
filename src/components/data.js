@@ -13,8 +13,8 @@ export const content = [
         subtitle: "post_2_subtitle",
         text: "post_2_text",
         backgroundImage: "1670_0018.jpg",
-        sideImage: "SPRING-BLANCO1.png",
-        side: "right"
+        sideImage: "češnjak.jpg",
+        side: "left"
     },
     {
         title: "post_3_title",
