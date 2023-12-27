@@ -29,7 +29,7 @@ export const content = [
         subtitle: "post_4_subtitle",
         text: "post_4_text",
         backgroundImage: "O3Z6087-2.jpg",
-        sideImage: "češnjak2.jpg",
+        sideImage: "22.jpg",
         side: "left"
     },
     {
