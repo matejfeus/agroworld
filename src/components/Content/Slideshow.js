@@ -4,12 +4,28 @@ import classes from "./Slideshow.module.css";
 import img1 from "../../assets/slider1.jpg";
 import img2 from "../../assets/slider2.jpg";
 import img3 from "../../assets/slider3.jpg";
-
-const images = [img1, img2, img3];
+import {useEffect} from "react";
 
 const Slideshow = () => {
 
     const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
+
+    useEffect(() => {
+        window.addEventListener('error', e => {
+            const resizeObserverErrDiv = document.getElementById(
+                'webpack-dev-server-client-overlay-div'
+            );
+            const resizeObserverErr = document.getElementById(
+                'webpack-dev-server-client-overlay'
+            );
+            if (resizeObserverErr) {
+                resizeObserverErr.setAttribute('style', 'display: none');
+            }
+            if (resizeObserverErrDiv) {
+                resizeObserverErrDiv.setAttribute('style', 'display: none');
+            }
+        });
+    }, []);
 
     return (
         <div className={classes.embla} ref={emblaRef}>
