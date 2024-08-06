@@ -27,8 +27,8 @@ const Slideshow = () => {
     }, []);
 
     const image1 = "https://agroworld.hr/images/slider1.jpg";
-    const image2 = "https://agroworld.hr/images/slider1.jpg";
-    const image3 = "https://agroworld.hr/images/slider1.jpg";
+    const image2 = "https://agroworld.hr/images/slider2.jpg";
+    const image3 = "https://agroworld.hr/images/slider3.jpg";
 
     return (
         <div className={classes.embla} ref={emblaRef}>
