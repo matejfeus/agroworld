@@ -18,8 +18,9 @@ const HeaderMenuOption = (props) => {
             <li className={classes.item} onClick={() => handleClickScroll(props.title)}>
                 {t(props.title)}
             </li>
-
-            <hr className={classes.item}/>
+            { t(props.title) != "" &&
+                <hr className={classes.item}/>
+            }
         </>
     );
 }

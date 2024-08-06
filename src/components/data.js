@@ -5,8 +5,7 @@ export const content = [
         text: "post_1_text",
         backgroundImage: "",
         sideImage: "",
-        side: ""
-
+        side: "",
     },
     {
         title: "post_2_title",
@@ -14,7 +13,7 @@ export const content = [
         text: "post_2_text",
         backgroundImage: "1670_0018.jpg",
         sideImage: "red.jpg",
-        side: "left"
+        side: "left",
     },
     {
         title: "post_3_title",
@@ -22,7 +21,7 @@ export const content = [
         text: "post_3_text",
         backgroundImage: "",
         sideImage: "O3Z5486.jpg",
-        side: "left"
+        side: "left",
     },
     {
         title: "post_4_title",
@@ -30,7 +29,7 @@ export const content = [
         text: "post_4_text",
         backgroundImage: "O3Z6087-2.jpg",
         sideImage: "22.jpg",
-        side: "left"
+        side: "left",
     },
     {
         title: "post_5_title",
@@ -38,14 +37,30 @@ export const content = [
         text: "post_5_text",
         backgroundImage: "",
         sideImage: "",
-        side: "middle"
+        side: "middle",
     },
     {
         title: "post_6_title",
         subtitle: "post_6_subtitle",
         text: "post_6_text",
         backgroundImage: "",
-        sideImage: "shutterstock_665118415-low-370x370.jpg",
-        side: "left"
+        sideImage: "",
+        side: "middle",
     },
+    {
+        title: "post_7_title",
+        subtitle: "post_7_subtitle",
+        text: "post_7_text",
+        backgroundImage: "",
+        sideImage: "",
+        side: "middle",
+    },
+    {
+        title: "post_8_title",
+        subtitle: "post_8_subtitle",
+        text: "post_8_text",
+        backgroundImage: "",
+        sideImage: "shutterstock_665118415-low-370x370.jpg",
+        side: "left",
+    }
 ]

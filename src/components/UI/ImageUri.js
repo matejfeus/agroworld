@@ -1,4 +1,4 @@
-import classes from "./IconUri.module.css";
+import classes from "./ImageUri.module.css";
 import i18next from "i18next";
 
 const ImageUri = (props) => {
@@ -7,7 +7,7 @@ const ImageUri = (props) => {
 
     return (
         <a href={props.href_} onClick={() => i18next.changeLanguage(imageName.split(".")[0])}>
-            <img src={imagePath} alt={imageName}/>
+            <img className={classes.imageUri} src={imagePath} alt={imageName}/>
         </a>
     )
 }

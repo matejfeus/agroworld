@@ -19,10 +19,12 @@
 
 .embla__container {
     display: flex;
+    width: max-content;
 }
 .embla__slide {
     flex: 0 0 100%;
     min-width: 0;
+    object-fit: cover;
 }
 
 .MultiCarousel .MultiCarousel-inner .item > div{overflow:hidden}

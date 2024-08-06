@@ -12,13 +12,17 @@ const MenuOption = (props) => {
     const { t } = useTranslation();
 
     return (
-        <li className={classes.item} onClick={() => handleClickScroll(props.title)}>
-            <a>
-                <span>
-                    {t(props.title)}
-                </span>
-            </a>
-        </li>
+        <div>
+            {t(props.title) != "" &&
+                <li className={classes.item} onClick={() => handleClickScroll(props.title)}>
+                    <a>
+                    <span>
+                        {t(props.title)}
+                    </span>
+                    </a>
+                </li>
+            }
+        </div>
     );
 }
 

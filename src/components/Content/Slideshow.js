@@ -29,10 +29,10 @@ const Slideshow = () => {
 
     return (
         <div className={classes.embla} ref={emblaRef}>
-            <div className={classes.embla__container}>
-                <div className={classes.embla__slide}><img src={img1}/></div>
-                <div className={classes.embla__slide}><img src={img2}/></div>
-                <div className={classes.embla__slide}><img src={img3}/></div>
+            <div style={{overflow: "hidden"}}  className={classes.embla__container}>
+                <div className={classes.embla__slide}><img style={{backgroundSize: "cover", width: "inherit", height: "inherit", maxWidth: "inherit", maxHeight: "inherit"}} src={img1}/></div>
+                <div className={classes.embla__slide}><img style={{backgroundSize: "cover", width: "inherit", height: "inherit", maxWidth: "inherit", maxHeight: "inherit"}} src={img2}/></div>
+                <div className={classes.embla__slide}><img style={{backgroundSize: "cover", width: "inherit", height: "inherit", maxWidth: "inherit", maxHeight: "inherit"}} src={img3}/></div>
             </div>
         </div>
     )

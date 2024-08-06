@@ -16,15 +16,6 @@ const Footer = (props) => {
                         <div className={classes.footer_component}>
                             <FooterContactList/>
                         </div>
-                        <div className={classes.footer_component}>
-                            <FooterMenu/>
-                        </div>
-                        <div className={classes.footer_component}>
-                            <img src={certificate1} alt=""/>
-                        </div>
-                        <div className={classes.footer_component}>
-                            <img src={certificate2} alt=""/>
-                        </div>
                     </div>
                 </div>
             </div>

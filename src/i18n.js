@@ -4,7 +4,7 @@ import Backend from 'i18next-xhr-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
 
 const fallbackLng = ['en']
-const availableLanguages = ['en', 'es']
+const availableLanguages = ['en', 'hr']
 
 i18n.use(Backend)
     .use(LanguageDetector)

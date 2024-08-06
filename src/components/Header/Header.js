@@ -1,9 +1,8 @@
 import classes from "./Header.module.css";
 import HeaderMenuList from "./HeaderMenuList";
 import IconUri from "../UI/IconUri";
-import logo from "../../assets/Logo-Ajos-LaVeguilla.png";
-import {useState} from "react";
 import ImageUri from "../UI/ImageUri";
+import { useState } from "react";
 import { useTranslation } from 'react-i18next'
 
 const Header = () => {
@@ -17,16 +16,16 @@ const Header = () => {
     }
 
     const changeLanguage = () => {
-        changeLane(lan === "es" ? "en" : "es")
-        i18n.changeLanguage(lan === "es" ? "en" : "es").then(r => {});
+        changeLane(lan === "hr" ? "en" : "hr")
+        i18n.changeLanguage(lan === "hr" ? "en" : "hr").then(r => {});
     };
 
     return (
         <>
             <div className={classes.multiLanguage}>
                 <div onClick={() => changeLanguage()}>
-                    { lan === "es" ? <ImageUri href_="#" imageName="en.png"/>
-                        : <ImageUri href_="#" imageName="es.png" /> }
+                    { lan === "hr" ? <ImageUri href_="#" imageName="en.png"/>
+                        : <ImageUri href_="#" imageName="hr.svg" /> }
                 </div>
             </div>
             <header className={classes.header}>
@@ -37,13 +36,6 @@ const Header = () => {
                             <span className={classes.icon} onClick={toggleShow}>
                                 <IconUri classes="fa fa-bars"/>
                             </span>
-                        </div>
-                        <div className={classes.logoWrapper}>
-                            <div className={classes.logo}>
-                                <a href="#">
-                                    <img src={logo} alt="" />
-                                </a>
-                            </div>
                         </div>
                         <div className={classes.burger}>
 

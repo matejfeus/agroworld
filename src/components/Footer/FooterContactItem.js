@@ -4,9 +4,9 @@ const FooterContactItem = (props) => {
     return (
         <div className={classes.footer_contact_item}>
             <i className={props.classes}></i>
-            <p className={classes.display_inline}>
+            <a className={classes.display_inline} href={props.url}>
                 {props.text}
-            </p>
+            </a>
         </div>
     );
 }
