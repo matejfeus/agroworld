@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 
 const Header = () => {
     const [show, setShow] = useState(false);
-    const [lan, changeLane] = useState("en");
+    const [lan, changeLane] = useState("hr");
 
     const { t, i18n } = useTranslation();
 
@@ -16,8 +16,8 @@ const Header = () => {
     }
 
     const changeLanguage = () => {
-        changeLane(lan === "hr" ? "en" : "hr")
-        i18n.changeLanguage(lan === "hr" ? "en" : "hr").then(r => {});
+        changeLane(lan === "en" ? "hr" : "en")
+        i18n.changeLanguage(lan === "en" ? "hr" : "en").then(r => {});
     };
 
     return (
