@@ -27,7 +27,7 @@ export const content = [
         title: "post_4_title",
         subtitle: "post_4_subtitle",
         text: "post_4_text",
-        backgroundImage: "O3Z6087-2.jpg",
+        backgroundImage: "Garlic-1.jpg",
         sideImage: "sjemenski-cesnjak-slika-156635230.jpg",
         side: "left",
     },
