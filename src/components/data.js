@@ -20,7 +20,7 @@ export const content = [
         subtitle: "post_3_subtitle",
         text: "post_3_text",
         backgroundImage: "",
-        sideImage: "O3Z5486.jpg",
+        sideImage: "Garlic-1.jpg",
         side: "left",
     },
     {
