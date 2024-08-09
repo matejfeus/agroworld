@@ -57,3 +57,7 @@ p {
     text-transform: none;
     color: #353535;
 }
+
+.content {
+    padding: 20px;
+}

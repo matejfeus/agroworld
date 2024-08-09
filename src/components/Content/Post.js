@@ -17,10 +17,13 @@ const Post = (props) => {
                 )
             }
             <div  className={classes.containerChild}>
-                <h2>{t(props.title)}</h2>
+                {
+                    t(props.title) != "" &&
+                    <h2>{t(props.title)}</h2>
+                }
                 <br/>
                 <h6><strong>{t(props.subtitle)}</strong></h6>
-                <div dangerouslySetInnerHTML={{ __html: t(props.text) }} />
+                <div className={classes.content} dangerouslySetInnerHTML={{ __html: t(props.text) }} />
             </div>
             {props.side === "right" &&
                 (
