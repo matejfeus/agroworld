@@ -22,7 +22,10 @@ const Post = (props) => {
                     <h2>{t(props.title)}</h2>
                 }
                 <br/>
-                <h6><strong>{t(props.subtitle)}</strong></h6>
+                {
+                    t(props.subtitle) != "" &&
+                    <h6><strong>{t(props.subtitle)}</strong></h6>
+                }
                 <div className={classes.content} dangerouslySetInnerHTML={{ __html: t(props.text) }} />
             </div>
             {props.side === "right" &&
