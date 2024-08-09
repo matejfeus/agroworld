@@ -8,7 +8,7 @@ const Post = (props) => {
     const { t } = useTranslation();
 
     return (
-        <div className={classes.container} id={props.title}>
+        <div className={classes.container}>
             {props.side === "left" &&
                 (
                     <div  className={classes.containerChild} >
@@ -16,7 +16,7 @@ const Post = (props) => {
                     </div>
                 )
             }
-            <div  className={classes.containerChild}>
+            <div  id={props.title} className={classes.containerChild}>
                 {
                     t(props.title) != "" &&
                     <h2>{t(props.title)}</h2>
