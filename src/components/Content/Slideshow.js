@@ -1,11 +1,7 @@
-import useEmblaCarousel from 'embla-carousel-react'
-import Autoplay from "embla-carousel-autoplay";
-import classes from "./Slideshow.module.css";
 import {useEffect} from "react";
+import EmblaCarousel from "./EmblaCarousel";
 
 const Slideshow = () => {
-
-    const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
 
     useEffect(() => {
         window.addEventListener('error', e => {
@@ -30,14 +26,13 @@ const Slideshow = () => {
     const image2 = "https://agroworld.hr/images/slider2.jpg";
     const image3 = "https://agroworld.hr/images/slider3.jpg";
 
+    const slides = [image1, image2, image3];
+    const options = {loop: true};
+
     return (
-        <div className={classes.embla} ref={emblaRef}>
-            <div style={{overflow: "hidden"}}  className={classes.embla__container}>
-                <div className={classes.embla__slide}><img style={{backgroundSize: "cover", width: "inherit", height: "inherit", maxWidth: "inherit", maxHeight: "inherit"}} src={image1}/></div>
-                <div className={classes.embla__slide}><img style={{backgroundSize: "cover", width: "inherit", height: "inherit", maxWidth: "inherit", maxHeight: "inherit"}} src={image2}/></div>
-                <div className={classes.embla__slide}><img style={{backgroundSize: "cover", width: "inherit", height: "inherit", maxWidth: "inherit", maxHeight: "inherit"}} src={image3}/></div>
-            </div>
-        </div>
+        <>
+            <EmblaCarousel slides={slides} options={options}/>
+        </>
     )
 }
 

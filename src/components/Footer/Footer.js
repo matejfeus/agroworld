@@ -1,8 +1,5 @@
 import classes from "./Footer.module.css";
 import background from "../../assets/footer-background.jpg";
-import certificate1 from "../../assets/veguilla-fondos-europeos-energias-renovables-1-181x300.jpg";
-import certificate2 from "../../assets/veguilla-fondos-europeos-181x300.jpg";
-import FooterMenu from "./FooterMenu";
 import FooterContactList from "./FooterContactList";
 
 const Footer = (props) => {
