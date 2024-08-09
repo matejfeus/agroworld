@@ -60,7 +60,7 @@ export const content = [
         subtitle: "post_8_subtitle",
         text: "post_8_text",
         backgroundImage: "",
-        sideImage: "shutterstock_665118415-low-370x370.jpg",
+        sideImage: "vadilica 1.jpg",
         side: "left",
     }
 ]
