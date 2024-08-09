@@ -4,7 +4,7 @@ import FooterContactList from "./FooterContactList";
 
 const Footer = (props) => {
     return (
-        <footer>
+        <footer id="contact">
             <div className={classes.container}>
                 <div className={classes.container_inner} style={{
                     backgroundImage: `url(${background})`

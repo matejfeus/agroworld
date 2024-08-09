@@ -13,7 +13,7 @@ const MenuOption = (props) => {
 
     return (
         <div>
-            {t(props.title) != "" &&
+            {(t(props.title) != "" && t(props.title) != "Agroworld") &&
                 <li className={classes.item} onClick={() => handleClickScroll(props.title)}>
                     <a>
                     <span>
