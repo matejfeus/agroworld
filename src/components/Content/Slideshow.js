@@ -26,7 +26,7 @@ const Slideshow = () => {
     const image2 = "https://agroworld.hr/images/slider2.jpg";
     const image3 = "https://agroworld.hr/images/slider3.jpg";
 
-    const slides = [image1, image2, image3];
+    const slides = [image3, image1, image2];
     const options = {loop: true};
 
     return (
