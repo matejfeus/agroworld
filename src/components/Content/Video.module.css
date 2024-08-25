@@ -1,19 +1,7 @@
 .video {
-    width: 600px;
-    height: 300px;
-    padding: unset;
-    margin: unset;
-    padding: 20px;
+    height: 400px;
+    width: 100vw;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 100%;
-    max-width: max-content;
 }
