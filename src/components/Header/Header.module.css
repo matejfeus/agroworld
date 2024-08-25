@@ -74,6 +74,11 @@
 }
 .innerWrapperRight {
     justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.innerWrapperLeft {
+    margin-left: 15px;
 }
 
 .innerWrapperCenter {
