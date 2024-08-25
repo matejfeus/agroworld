@@ -2,6 +2,7 @@ import classes from "./Header.module.css";
 import HeaderMenuList from "./HeaderMenuList";
 import IconUri from "../UI/IconUri";
 import ImageUri from "../UI/ImageUri";
+import classNames from "classnames";
 import { useState } from "react";
 import { useTranslation } from 'react-i18next'
 
@@ -22,16 +23,22 @@ const Header = () => {
 
     return (
         <>
-            <div className={classes.multiLanguage}>
-                <div className={classes.item}>
-                    <a href="tel:+385989683306">+385 98 968 3306</a>
+            <div className={classes.outerWrapper}>
+                <div className={classes.innerWrapperLeft}>
+                    <div className={classes.item}>
+                        <a href="tel:+385989683306" style={{fontSize: "18px"}}>+385 98 968 3306</a>
+                    </div>
                 </div>
-                <div className={classes.item} onClick={() => changeLanguage()}>
-                    { lan === "hr" ? <ImageUri href_="#" imageName="en.png"/>
-                        : <ImageUri href_="#" imageName="hr.svg" /> }
+                <div className={classes.innerWrapperCenter} onClick={() => changeLanguage()}>
+                    <div className={classes.item}>
+                        { lan === "hr" ? <ImageUri href_="#" imageName="en.png"/>
+                            : <ImageUri href_="#" imageName="hr.svg" /> }
+                    </div>
                 </div>
-                <div className={classes.item}>
-                    <a href="https://wa.me/385989683306" className="fa fa-whatsapp"></a>
+                <div className={classes.innerWrapperRight}>
+                    <div className={classes.item}>
+                        <a href="https://wa.me/385989683306" style={{fontSize: "20px"}} className="fa fa-whatsapp"></a>
+                    </div>
                 </div>
             </div>
             <header className={classes.header}>

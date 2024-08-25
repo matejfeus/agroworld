@@ -53,9 +53,28 @@
     top: 0px;
 }
 
+.outerWrapper {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    justify-content: space-between;
+    background-color: #907c6c;
+    top: 0px;
+}
 .item {
-    width: fit-content;
-    height: fit-content;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+.innerWrapperLeft, .innerWrapperRight {
+    flex: 1;
+    display: flex;
+    min-width: -webkit-min-content; /* Workaround to Chrome bug */
+}
+.innerWrapperRight {
+    justify-content: flex-end;
+}
+
+.innerWrapperCenter {
 }
