@@ -64,9 +64,9 @@
     top: 0px;
 }
 .item {
-    margin: 20px;
     font-size: 20px;
 }
+
 .innerWrapperLeft, .innerWrapperRight {
     flex: 1;
     display: flex;
