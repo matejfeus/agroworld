@@ -23,9 +23,15 @@ const Header = () => {
     return (
         <>
             <div className={classes.multiLanguage}>
-                <div onClick={() => changeLanguage()}>
+                <div className={classes.item}>
+                    <a href="tel:+385989683306">+385 98 968 3306</a>
+                </div>
+                <div className={classes.item} onClick={() => changeLanguage()}>
                     { lan === "hr" ? <ImageUri href_="#" imageName="en.png"/>
                         : <ImageUri href_="#" imageName="hr.svg" /> }
+                </div>
+                <div className={classes.item}>
+                    <a href="https://wa.me/385989683306" className="fa fa-whatsapp"></a>
                 </div>
             </div>
             <header className={classes.header}>
